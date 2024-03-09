@@ -1,130 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DXX.MOVIES</title>
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="bootstrap.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DXX.MOVIES</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
 
-  <div class="all-div">
+  </head>
+  <body>
+   
 
-    <div class="first-container-1">
-      <div class="secn-div">
-       <div class="dxx-div">
-        <h3>
-          DXX.<span>MOVIES</span>
-        </h3>
-        
-        <small>New feed</small>
-        
-        <div class="icon-div">
-        
-          <div class="one">
-            <i class="fas fa-clock"></i><span>Browse</span>
-          </div>
-          <a href="favorite.html">
-            <div class="love">
-              <span><i class="fas fa-heart"></i>Favourite</span>
+    <div class="all-div">
+      <div class="first-container-1">
+        <div class="secn-div">
+          <div class="dxx-div">
+            <h3><a href="index.html">DXX.<span>MOVIES</a></span></h3>
+
+            <small>New feed</small>
+
+            <div class="icon-div">
+              <div class="one">
+                <i class="fas fa-clock"></i><span>Browse</span>
+              </div>
+              <a href="favorite.html">
+                <div class="love">
+                  <span><i class="fas fa-heart"></i>Favourite</span>
+                </div>
+              </a>
+              <div class="one">
+                <sub
+                  ><span><i class="fas fa-bell"></i><sup></sup></span
+                  >Remind</sub
+                >
+              </div>
             </div>
-          </a>
-          <div class="one">
-            <sub><span><i class="fas fa-bell"></i><sup></sup></span>Remind</sub>
+          </div>
+
+          <span class="cate">Category</span>
+
+          <div class="action">
+            <div class="mb-1">Action</div>
+            <div class="mb-1">Horror</div>
+            <div class="mb-1">Adventure</div>
+            <div class="mb-1">Animation</div>
+            <div class="mb-1">Adventure, Action</div>
+            <div class="mb-1">SF, Adventure</div>
+            <div class="mb-1">Crime</div>
+            <div class="mb-1">Catoon</div>
+            <div class="mb-1">War</div>
+            <div class="mb-1">Sport</div>
+          </div>
+
+          <p class="view">view more <i class="fas fa-chevron-right"></i></p>
+
+          <div class="log">
+            <i class="fas fa-sign-out"></i>
+            <button>Log_out</button>
           </div>
         </div>
-        
-        </div>
-        
-        <span class="cate">Category</span>
-        
-        <div class="action">
-          <div class="mb-1">Action</div>
-          <div class="mb-1">Horror</div>
-          <div class="mb-1">Adventure</div>
-          <div class="mb-1">Animation</div>
-          <div class="mb-1">Adventure, Action</div>
-          <div class="mb-1">SF, Adventure</div>
-          <div class="mb-1">Crime</div>
-          <div class="mb-1">Catoon</div>
-          <div class="mb-1">War</div>
-          <div class="mb-1">Sport</div>
-        </div>
-        
-        <p class="view">view more <i class="fas fa-chevron-right"></i></p>
-        
-        <div class="log">
-          <i class="fas fa-sign-out"></i>
-          <button>Log_out</button>
-        </div>
-
       </div>
-  
+
+      <div class="second-container">
+        <div id="second-all">
+          <div class="top-div">
+            <div class="chevron">
+              <i class="fas fa-chevron-left"></i>
+              <span><i class="fas fa-chevron-right"></i></span>
+            </div>
+
+            <div class="search-div">
+              <form action="">
+                <i class="fas fa-search"></i>
+                <input
+                  type="search"
+                  name=""
+                  id="search"
+                  value=""
+                  placeholder="Search any movies..."
+                />
+              </form>
+            </div>
+
+            <div class="icon-div">
+              <i class="fas fa-message"></i>
+              <i class="fas fa-circle"></i>
+              <i class="fas fa-navicon"></i>
+            </div>
+          </div>
+
+          <!-- <p>3b559e0bc42676586bae4a8920208baa</p> -->
+
+          <!-- <img src="" alt=""> -->
+
+          <div id="herro"></div>
+          <div id="key2">
+            <!-- movie page -->
+          </div>
+
+          <div id="load"></div>
+        </div>
+        <p class="error"></p>
+
+        <div class="product-list"></div>
+        <div class="wrong"></div>
+      </div>
     </div>
 
+    <script src="bootstrap.bundle.min.js"></script>
+    <script defer src="index.js"></script>
 
-    <div class="second-container">
-
-      <div id="second-all">
-
-        <div class="top-div">
-
-          <div class="chevron">
-            <i class="fas fa-chevron-left"></i>
-            <span><i class="fas fa-chevron-right"></i></span>
-          </div>
-  
-          <div class="search-div">
-            <form action="">
-              <i class="fas fa-search"></i>
-              <input type="search" name="" id="search"  placeholder="Search any movies...">
-            </form>
-          </div>
-
-          <div class="icon-div">
-            <i class="fas fa-message"></i>
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-navicon"></i>
-          </div>
-
-        </div>
-
-        
-
-
-        <!-- <p>3b559e0bc42676586bae4a8920208baa</p> -->
-
-        <!-- <img src="" alt=""> -->
-
-        <div id="herro">
-
-        </div>
-        <div id="key2">
-          <!-- movie page -->
-
-        </div>
-
-
-        <div id="load"></div>
-
-
-      </div>
-      <p class="error"></p>
-
-      <div class="product-list"></div>
-      <div class="wrong"></div>
-
-    </div>
-
-  </div>
-
-
-
-
-
-  <script src="bootstrap.bundle.min.js"></script>
-  <script src="index.js"></script>
-</body>
+  </body>
 </html>
